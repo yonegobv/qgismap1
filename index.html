@@ -37,7 +37,7 @@
             zoomControl:true, maxZoom:28, minZoom:1
         }).fitBounds([[51.745704646739505,4.57685281451274],[52.39176435262574,5.867026626293689]]);
         var hash = new L.Hash(map);
-        map.setView(new L.LatLng(51.63514559520886, 4.960319510497467), 8);
+        map.setView(new L.LatLng(51.63514559520886, 4.960319510497467), 4);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         function removeEmptyRowsFromPopupContent(content, feature) {
